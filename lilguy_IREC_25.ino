@@ -20,7 +20,7 @@ void setup() {
     
     samplePeriod = (1/sampleRate)*1000;// converts HZ to MS to wait at end of loop, hoping that its fast enough to not mater
     
-    digitalWrite(9, LOW);  
+    digitalWrite(9, LOW);  //LED blinking sequence to indicate it has powered on 
     for(int i = 0; i < 3; i++)
     {
       digitalWrite(LED_GREEN, LOW); 
